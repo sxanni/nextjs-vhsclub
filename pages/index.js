@@ -4,6 +4,7 @@ import Hero from '../components/Hero';
 import Slider from '../components/Slider';
 import Instagram from '../components/Instagram';
 import { SliderData } from '../components/SliderData';
+import Login from "../components/Login";
 
 export default function Home() {
   return (

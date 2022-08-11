@@ -42,7 +42,8 @@ const Slider = ({ slides }) => {
 
                 {/* if index is on the current slide then hide then display it, this hides the other images that arent currently displayed */}
                 {index === current && (
-                  <img
+                  <Image
+                  unoptimized 
                     className="slider p-2 border border-orange-400"
                     src={slide.image}
                     alt="/"

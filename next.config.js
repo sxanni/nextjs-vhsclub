@@ -10,7 +10,7 @@ const nextConfig = {
 module.exports = {
   reactStrictMode: true,
   images:{
-    domains: ['localhost', '66.media.tumblr.com', '66.media.tumblr.com'],
+    domains: ['66.media.tumblr.com', 'media2.giphy.com'],
   },
 };
 
