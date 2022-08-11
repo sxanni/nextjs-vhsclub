@@ -2,6 +2,16 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
+
+  
 }
 
-module.exports = nextConfig
+
+module.exports = {
+  reactStrictMode: true,
+  images:{
+    domains: ['localhost', '66.media.tumblr.com', '66.media.tumblr.com'],
+  },
+};
+
+

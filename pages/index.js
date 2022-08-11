@@ -1,6 +1,9 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import Hero from '../components/Hero'
+import Head from 'next/head';
+import Image from 'next/image';
+import Hero from '../components/Hero';
+import Slider from '../components/Slider';
+import Instagram from '../components/Instagram';
+import { SliderData } from '../components/SliderData';
 
 export default function Home() {
   return (
@@ -13,6 +16,8 @@ export default function Home() {
       </Head>
 
       <Hero heading='VHS - CLUB' message='Sharing and documenting the golden age of film' button='Subscribe' />
+      <Slider slides={SliderData} />
+      <Instagram />
     </div>
   )
 }
