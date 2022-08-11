@@ -30,20 +30,20 @@ useEffect(()=> { //USE EFFECT TO HANDLE NAVBAR AND HEADING COLOR CHANGE ON SCROL
     <div style={{backgroundColor: `${color}`}} className="fixed left-0 top-0 w-full z-10 ease-in duration-300">
       <div className=" max-w-[1240px] flex justify-between items-center p-4 text-white ">
         <Link href="/">
-          <h1 style={{color: `${txtColor}`}} className="font-bold text-orange-500 text-4xl cursor-crosshair ">[ <span className="">VHSC</span> ]</h1>
+          <h1 style={{color: `${txtColor}`}} className="font-bold text-orange-500 text-4xl cursor-crosshair ">[ <span className="hover:text-orange-400">VHSC</span> ]</h1>
         </Link>
         <ul style={{color: `${txtColor}`}}  className="hidden sm:flex">
-          <li className="p-4 mx-6">
+          <li className="p-4 mx-6 hover:text-orange-400">
             <Link href="/#gallery" >
               <h1 className="cursor-crosshair">Gallery</h1>
             </Link>
           </li>
-          <li className="p-4 mx-6">
+          <li className="p-4 mx-6 hover:text-orange-400">
             <Link href="/work">
               <h1 className="cursor-crosshair">Work</h1>
             </Link>
           </li>
-          <li className="p-4 mx-6">
+          <li className="p-4 mx-6 hover:text-orange-400">
             <Link href="/contact">
               <h1 className="cursor-crosshair">Contact</h1>
             </Link>
@@ -64,17 +64,17 @@ useEffect(()=> { //USE EFFECT TO HANDLE NAVBAR AND HEADING COLOR CHANGE ON SCROL
           ? "sm:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300" 
           : "sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300"}>
           <ul className="text-5xl">
-            <li className=" my-8 font-bold" >
+            <li className=" my-8 font-bold hover:text-orange-400" >
               <Link href="/#gallery"  >
                 <h1 onClick={toggleNav} className="cursor-crosshair">Gallery</h1>
               </Link>
             </li>
-            <li className=" my-8 font-bold">
+            <li className=" my-8 font-bold hover:text-orange-400">
               <Link href="/work">
                 <h1 onClick={toggleNav} className="cursor-crosshair">Work</h1>
               </Link>
             </li>
-            <li className=" my-8 font-bold">
+            <li className=" my-8 font-bold hover:text-orange-400">
               <Link href="/contact">
                 <h1 onClick={toggleNav} className="cursor-crosshair">Contact</h1>
               </Link>
