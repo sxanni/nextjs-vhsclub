@@ -29,8 +29,8 @@ const Slider = ({ slides }) => {
               key={index}
               className={
                 index === current
-                  ? "opacity-[1] ease-in duation-2000"
-                  : "opacity-0"
+                  ? "opacity-[1] ease-in duation-5000"
+                  : "opacity-0 hidden ease-in duation-5000" //hide and 0 opacity the non current images
               }
             >
               <div className="relative flex justify-center">
@@ -44,10 +44,10 @@ const Slider = ({ slides }) => {
                 {index === current && (
                   <Image
                   unoptimized 
-                    className="slider p-2 border border-orange-400"
+                    className=" absolute slider p-20 border border-orange-400"
                     src={slide.image}
                     alt="/"
-                    width="1440"
+                    width="1040"
                     height="600"
                     objectFit="cover"
                   />

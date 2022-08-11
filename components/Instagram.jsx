@@ -11,7 +11,7 @@ const Instagram = () => {
   return (
     <div className='max-w-[1240px] mz-auto text-center py-24'>
         <p className='text-2xl font-bold'>follow me on Instagram</p>
-        <p className='pb-4'>@Capture</p>
+        <p className='pb-4'>@x234.wav</p>
         <div className='grid grid-cols-2 md:grid-col-3 lg:grid-col-6 gap-2 p-4'>
             <InstagramImg socialImg={IgImg1} />
             <InstagramImg socialImg={IgImg2} />
